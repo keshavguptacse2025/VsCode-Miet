@@ -192,19 +192,3 @@ A complete, clean, and highly efficient collection of 71 fundamental Data Struct
 | [`best_sorting_algorithm_student_names.c`](best_sorting_algorithm_student_names.c) | Comparative analysis of sorting algorithms for student strings, demonstrating why Merge Sort is optimal for stability and guaranteed $O(N \log N \cdot L)$ runtime. |
 
 ---
-
-## 🛠️ Compilation & Execution
-
-All solutions are written in standard pure C (C99/C11 compliant) and can be compiled using any modern C compiler (GCC, Clang, or MSVC).
-
-### Using GCC / Clang:
-```bash
-gcc -Wall -Wextra -O2 1d_array_insertion.c -o 1d_array_insertion
-./1d_array_insertion
-```
-
-### Using MSVC (Visual Studio Developer Command Prompt):
-```cmd
-cl /W4 1d_array_insertion.c
-1d_array_insertion.exe
-```
